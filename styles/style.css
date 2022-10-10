@@ -331,6 +331,32 @@ p {
   }
 }
 
+.slider {
+  width: 80%;
+  margin: 0 auto;
+}
+.slider .card {
+  width: 100%;
+}
+.slider .card img {
+  position: relative;
+  z-index: 0;
+}
+.slider .card .mobile_img {
+  margin: 0 auto;
+}
+.slider .card .header_card_title {
+  position: absolute;
+  transform: translate(-150%, -1300%);
+}
+.slider .card .card_discount h1 {
+  transform: translate(-234%, -1129%);
+  font-size: 50px;
+}
+.slider .card .card_discount h2 {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .card:nth-child(4) .banner_box .card_discount h1 {
     transform: translate(681%, -600%);
