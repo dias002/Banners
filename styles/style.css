@@ -338,23 +338,20 @@ h1 {
 .slider .card {
   width: 100%;
 }
-.slider .card img {
-  position: relative;
-  z-index: 0;
-}
 .slider .card .mobile_img {
   margin: 0 auto;
 }
 .slider .card .banner_box {
   position: absolute;
-  width: 90%;
+  width: 100%;
   height: 60%;
   top: 350px;
+  padding-left: 0;
 }
 .slider .card .banner_box .header_card_title {
-  position: absolute;
   width: 40%;
   height: 100%;
+  padding-left: 1%;
 }
 .slider .card .banner_box .card_discount h1 {
   display: none;
