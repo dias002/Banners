@@ -62,7 +62,7 @@ h1 {
 
 .card {
   width: 90%;
-  margin: 300px auto;
+  margin: 500px auto;
   background-position: right;
   background-repeat: no-repeat;
   height: 70vh;
@@ -274,7 +274,7 @@ h1 {
 }
 .card .banner_box .card_discount .mobile_discount {
   display: none;
-  transform: translate(624%, -218%);
+  transform: translate(736%, -218%);
   font-size: 45px;
   line-height: 130%;
   font-family: "Exo-extra";
