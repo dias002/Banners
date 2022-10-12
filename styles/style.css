@@ -325,8 +325,11 @@ h1 {
     right: 0;
     transform: translate(91%, -130%);
   }
-  .discound_icon {
+ .card .banner_box .card_discount .discound_icon {
     transform:translate(0);
+  }
+  .card .banner_box .card_discount .discound_icon {
+    transform: translate(91%, -130%);
   }
 }
 @media (max-width: 320px) {
