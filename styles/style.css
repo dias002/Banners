@@ -51,6 +51,10 @@ p {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -90,6 +94,7 @@ p {
 .card .banner_box {
   position: absolute;
   width: 90%;
+  height: 52vh;
 }
 .card .banner_box .header_card_title {
   position: absolute;
@@ -260,14 +265,20 @@ p {
 .card .banner_box .card_discount {
   width: 10%;
   display: block;
-  position: relative;
+  position: absolute;
   right: 200px;
+  top: 0;
 }
 .card .banner_box .card_discount .discound_icon {
   display: none;
 }
 .card .banner_box .card_discount .mobile_discount {
   display: none;
+  transform: translate(624%, -218%);
+  font-size: 45px;
+  line-height: 130%;
+  font-family: "Exo-extra";
+  color: white;
 }
 .card .banner_box .card_discount .discound_icon_pc {
   display: block;
@@ -295,11 +306,6 @@ p {
   }
   .card .banner_box .card_discount .mobile_discount {
     display: block;
-    transform: translate(624%, -218%);
-    font-size: 45px;
-    line-height: 130%;
-    font-family: "Exo-extra";
-    color: white;
   }
 }
 
