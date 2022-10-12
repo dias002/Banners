@@ -328,13 +328,10 @@ h1 {
   .card .banner_box .card_discount h2 {
     position: absolute;
     right: 0;
-    transform: translate(91%, -130%);
+    transform: translate(137%, 153%)!important;
   }
  .card .banner_box .card_discount .discound_icon {
-    transform:translate(0);
-  }
-  .card .banner_box .card_discount .discound_icon {
-    transform: translate(91%, -130%);
+    transform:translate(0)!important;
   }
 }
 @media (max-width: 320px) {
