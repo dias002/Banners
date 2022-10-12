@@ -297,6 +297,9 @@ h1 {
   font-size: 40px;
 }
 @media (max-width: 425px) {
+  .card .banner_box .card_discount h1 {
+    display: none;
+  }
   .card .banner_box .card_discount .discound_icon {
     display: block;
     transform: translate(159%, -36%);
@@ -308,7 +311,26 @@ h1 {
     display: block;
   }
 }
+@media (max-width: 320px) {
+  .card .banner_box .card_discount {
+    right: 0;
+  }
+  .card .banner_box .card_discount h2 {
+    position: absolute;
+    right: 0;
+  }
+}
+@media (max-width: 320px) {
+  .card .banner_box {
+    max-width: 100%;
+  }
+}
 
+@media (max-width: 425px) {
+  .card {
+    margin: 10% auto;
+  }
+}
 .slider {
   width: 80%;
   margin: 0 auto;
