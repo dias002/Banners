@@ -274,7 +274,7 @@ h1 {
 }
 .card .banner_box .card_discount .mobile_discount {
   display: none;
-  transform: translate(736%, -218%);
+  transform: translate(326%, 180%)
   font-size: 45px;
   line-height: 130%;
   font-family: "Exo-extra";
@@ -302,7 +302,7 @@ h1 {
   }
   .card .banner_box .card_discount .discound_icon {
     display: block;
-    transform: translate(159%, -36%);
+    transform: translate(89%, 150%);
   }
   .card .banner_box .card_discount .discound_icon_pc {
     display: none;
