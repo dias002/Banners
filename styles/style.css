@@ -59,6 +59,11 @@ h1 {
   width: 90%;
   margin: 0 auto;
 }
+@media (max-width:320px){
+  .container{
+    width:100%;
+  }
+}
 
 .card {
   width: 90%;
@@ -274,7 +279,7 @@ h1 {
 }
 .card .banner_box .card_discount .mobile_discount {
   display: none;
-  transform: translate(470%, 180%);
+  transform: translate(332%, 180%);
   font-size: 45px;
   line-height: 130%;
   font-family: "Exo-extra";
@@ -318,6 +323,10 @@ h1 {
   .card .banner_box .card_discount h2 {
     position: absolute;
     right: 0;
+    transform: translate(91%, -130%);
+  }
+  .discound_icon {
+    transform:translate(0);
   }
 }
 @media (max-width: 320px) {
